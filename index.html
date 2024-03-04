@@ -54,7 +54,6 @@
     <!-- css propio -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-
   <body>
     <!-- inicio navbar -->
     <nav class="navbar navbar-dark fixed-top navbar-expand-md p-4" id="navbar">
@@ -94,7 +93,6 @@
       </div>
     </nav>
     <!-- fin navbar -->
-
     <!-- inicio carousel -->
     <header>
       <section>
@@ -148,7 +146,7 @@
       <!-- inicio quienes somos -->
       <section id="quienes-somos" class="container d-none d-md-block p-3">
         <h2 class="text-center py-3">¿Quienes somos?</h2>
-        <hr>
+        <hr />
         <div class="row">
           <div class="col-12 col-md-4 p-4">
             <div class="card bg-white">
@@ -210,18 +208,22 @@
         </div>
       </section>
       <!-- fin quienes somos -->
-
       <!-- inicio destacados -->
       <section id="destacados" class="container d-md-block p-3">
         <h2 class="text-center py-3">Destacados</h2>
-        <hr>
+        <hr />
         <div class="row">
           <div class="col-12 col-md-3 p-3">
             <div class="card bg-black text-white">
-              <div class="card-body p-0">
-                <img src="./assets/img/card1.jpg" class="w-100" />
-              </div>
-              <div class="card-footer text-center bg-info text-white">
+              <img
+                class="card-img-top"
+                src="./assets/img/card1.jpg"
+                class="w-100"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Click para ocultar/mostrar el texto"
+              />
+              <div class="card-body text-center bg-info text-white">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 ullam culpa dicta magni unde veniam quos accusamus nobis
                 deserunt in, ducimus, possimus sit et, eius atque! Expedita vero
@@ -231,10 +233,15 @@
           </div>
           <div class="col-12 col-md-3 p-3">
             <div class="card bg-black text-white">
-              <div class="card-body p-0">
-                <img src="./assets/img/card2.jpg" class="w-100" />
-              </div>
-              <div class="card-footer text-center bg-info text-white">
+              <img
+                class="card-img-top"
+                src="./assets/img/card2.jpg"
+                class="w-100"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Click para ocultar/mostrar el texto"
+              />
+              <div class="card-body text-center bg-info text-white">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 ullam culpa dicta magni unde veniam quos accusamus nobis
                 deserunt in, ducimus, possimus sit et, eius atque! Expedita vero
@@ -244,10 +251,15 @@
           </div>
           <div class="col-12 col-md-3 p-3">
             <div class="card bg-black text-white">
-              <div class="card-body p-0">
-                <img src="./assets/img/card3.jpg" class="w-100" />
-              </div>
-              <div class="card-footer text-center bg-info text-white">
+              <img
+                class="card-img-top"
+                src="./assets/img/card3.jpg"
+                class="w-100"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Click para ocultar/mostrar el texto"
+              />
+              <div class="card-body text-center bg-info text-white">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 ullam culpa dicta magni unde veniam quos accusamus nobis
                 deserunt in, ducimus, possimus sit et, eius atque! Expedita vero
@@ -257,10 +269,15 @@
           </div>
           <div class="col-12 col-md-3 p-3">
             <div class="card bg-black text-white">
-              <div class="card-body p-0">
-                <img src="./assets/img/card4.jpg" class="w-100" />
-              </div>
-              <div class="card-footer text-center bg-info text-white">
+              <img
+                class="card-img-top"
+                src="./assets/img/card4.jpg"
+                class="w-100"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Click para ocultar/mostrar el texto"
+              />
+              <div class="card-body text-center bg-info text-white">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 ullam culpa dicta magni unde veniam quos accusamus nobis
                 deserunt in, ducimus, possimus sit et, eius atque! Expedita vero
@@ -271,12 +288,11 @@
         </div>
       </section>
       <!-- fin destacados -->
-
       <!-- inicio contacto -->
       <section id="contacto" class="container d-md-block p-3">
         <h2 class="text-center py-3">Contacto</h2>
-        <hr>
-        <form class="row g-3">
+        <hr />
+        <form class="row g-3" novalidate>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"
               >Nombre</label
@@ -311,7 +327,13 @@
             ></textarea>
           </div>
           <div class="mb-3">
-            <button type="submit" class="btn btn-info text-white">
+            <button
+              type="submit"
+              class="btn btn-info text-white"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              data-bs-title="Click para enviar el formulario" id="enviarFormulario"
+            >
               Enviar
             </button>
           </div>
