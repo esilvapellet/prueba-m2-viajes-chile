@@ -8,10 +8,18 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #333232;
     color: white;
 }
 
 nav img {
     width: 35px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.card{
+    border: none;
 }
