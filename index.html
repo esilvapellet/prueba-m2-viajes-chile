@@ -57,7 +57,7 @@
 
   <body>
     <!-- inicio navbar -->
-    <nav class="navbar navbar-dark fixed-top navbar-expand-md p-4">
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md p-4" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="./assets/img/viajes.svg" alt="Viajes Chile" /> Viajes Chile
@@ -148,6 +148,7 @@
       <!-- inicio quienes somos -->
       <section id="quienes-somos" class="container d-none d-md-block p-3">
         <h2 class="text-center py-3">¿Quienes somos?</h2>
+        <hr>
         <div class="row">
           <div class="col-12 col-md-4 p-4">
             <div class="card bg-white">
@@ -213,6 +214,7 @@
       <!-- inicio destacados -->
       <section id="destacados" class="container d-md-block p-3">
         <h2 class="text-center py-3">Destacados</h2>
+        <hr>
         <div class="row">
           <div class="col-12 col-md-3 p-3">
             <div class="card bg-black text-white">
@@ -255,7 +257,7 @@
           </div>
           <div class="col-12 col-md-3 p-3">
             <div class="card bg-black text-white">
-              <div class="card-body p-0 my-2">
+              <div class="card-body p-0">
                 <img src="./assets/img/card4.jpg" class="w-100" />
               </div>
               <div class="card-footer text-center bg-info text-white">
@@ -273,6 +275,7 @@
       <!-- inicio contacto -->
       <section id="contacto" class="container d-md-block p-3">
         <h2 class="text-center py-3">Contacto</h2>
+        <hr>
         <form class="row g-3">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"
@@ -308,11 +311,36 @@
             ></textarea>
           </div>
           <div class="mb-3">
-            <button type="submit" class="btn btn-info text-white">Enviar</button>
+            <button type="submit" class="btn btn-info text-white">
+              Enviar
+            </button>
           </div>
         </form>
       </section>
       <!-- fin contacto -->
     </main>
+    <!-- inicio footer -->
+    <footer class="bg-info">
+      <div class="row p-3 m-0">
+        <div class="col-6 p-3 text-center">
+          <a href="#carouselExample"> Viajes Chile </a>
+        </div>
+        <div class="col-6 p-3 text-center">
+          <a href="https://github.com/" target="_blank">
+            <i class="fa-brands m-1 fa-square-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa-brands m-1 fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa-brands m-1 fa-square-x-twitter"></i>
+          </a>
+          <a href="https://facebook.com/" target="_blank">
+            <i class="fa-brands m-1 fa-square-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- fin footer -->
   </body>
 </html>

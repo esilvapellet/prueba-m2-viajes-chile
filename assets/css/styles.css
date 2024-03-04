@@ -1,25 +1,40 @@
 * {
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #333232;
-    color: white;
+  background-color: #333232;
+  color: white;
 }
 
 nav img {
-    width: 35px;
+  width: 35px;
 }
 
-h2{
-    text-transform: uppercase;
+nav .nav-item, .navbar-brand {
+  font-size: 20px;
 }
 
-.card{
-    border: none;
+h2 {
+  text-transform: uppercase;
+}
+
+.card {
+  border: none;
+}
+
+#quienes-somos i,
+footer i {
+  font-size: 30px;
+}
+
+footer a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
